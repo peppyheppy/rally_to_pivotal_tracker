@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#
+#  Created on 2010-8-2.
+#  Copyright (c) 2010. All rights reserved.
+
+require 'rubygems'
+require File.expand_path(File.dirname(__FILE__) + "/../lib/rally_to_pivotal_tracker")
+require "rally2pivotal/cli"
+
+Rally2pivotal::CLI.execute(STDOUT, ARGV)

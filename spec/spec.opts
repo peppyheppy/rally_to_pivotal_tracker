@@ -1,0 +1,8 @@
+--colour
+--format profile 
+--reverse
+--timeout
+20
+--diff
+--loadby mtime
+--backtrace
